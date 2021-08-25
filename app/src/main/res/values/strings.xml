@@ -1,0 +1,4 @@
+<resources>
+  <string name="app_name">BaseHiltDi</string>
+  <string name="error_request">Ha sucedido un error en tu solicitud</string>
+</resources>
