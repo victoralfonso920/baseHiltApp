@@ -11,7 +11,7 @@
     android:supportsRtl="true"
     android:theme="@style/Theme.BaseHiltDi">
     <activity
-      android:name="com.example.basehiltdi.features.ui.HomeHostActivity"
+      android:name="com.example.basehiltdi.ui.HomeHostActivity"
       android:exported="true">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+<navigation
+  xmlns:android="http://schemas.android.com/apk/res/android"
   xmlns:app="http://schemas.android.com/apk/res-auto"
   xmlns:tools="http://schemas.android.com/tools"
   android:id="@+id/nav_root"
@@ -7,7 +8,7 @@
 
   <fragment
     android:id="@+id/homeFragment"
-    android:name="com.example.basehiltdi.features.ui.home.HomeFragment"
+    android:name="com.example.basehiltdi.ui.features.home.HomeFragment"
     android:label="home_fragment"
     tools:layout="@layout/home_fragment" >
     <action
@@ -20,7 +21,11 @@
   </fragment>
   <fragment
     android:id="@+id/detailFragment"
-    android:name="com.example.basehiltdi.features.ui.detail.DetailFragment"
+    android:name="com.example.basehiltdi.ui.features.detail.DetailFragment"
     android:label="DetailFragment"
-    tools:layout="@layout/detail_fragment"/>
+    tools:layout="@layout/detail_fragment">
+    <argument
+      android:name="name_last_screen"
+      app:argType="string" />
+  </fragment>
 </navigation>

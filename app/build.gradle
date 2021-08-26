@@ -15,7 +15,10 @@ android {
         targetSdk 31
         versionCode 1
         versionName "1.0"
-
+        multiDexEnabled true
+        vectorDrawables.useSupportLibrary = true
+        renderscriptTargetApi 18
+        renderscriptSupportModeEnabled true
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
@@ -84,13 +87,12 @@ dependencies {
     implementation 'com.github.bumptech.glide:okhttp3-integration:4.12.0'
     kapt           'com.github.bumptech.glide:compiler:4.12.0'
     //ThirdParty
-    implementation 'com.intuit.sdp:sdp-android:1.0.6'
-    implementation 'com.localebro:okhttpprofiler:1.0.8'
-    implementation "com.jakewharton.timber:timber:4.7.1"
-    implementation "com.orhanobut:logger:2.2.0"
-    implementation 'com.intuit.sdp:sdp-android:1.0.6'
-    implementation 'com.intuit.ssp:ssp-android:1.0.6'
-    debugImplementation  "com.github.chuckerteam.chucker:library:$chucker_version"
-    releaseImplementation  "com.github.chuckerteam.chucker:library-no-op:$chucker_version"
+    implementation          'com.localebro:okhttpprofiler:1.0.8'
+    implementation          "com.jakewharton.timber:timber:4.7.1"
+    implementation          "com.orhanobut:logger:2.2.0"
+    implementation          'com.intuit.sdp:sdp-android:1.0.6'
+    implementation          'com.intuit.ssp:ssp-android:1.0.6'
+    debugImplementation     "com.github.chuckerteam.chucker:library:$chucker_version"
+    releaseImplementation   "com.github.chuckerteam.chucker:library-no-op:$chucker_version"
 
 }

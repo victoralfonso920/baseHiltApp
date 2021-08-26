@@ -3,17 +3,22 @@
   xmlns:tools="http://schemas.android.com/tools"
   xmlns:android="http://schemas.android.com/apk/res/android">
 
+  <data>
+    <variable
+      name="viewModel"
+      type="com.example.basehiltdi.ui.features.detail.DetailViewModel" />
+  </data>
 
 <androidx.constraintlayout.widget.ConstraintLayout
   android:layout_width="match_parent"
   android:layout_height="match_parent"
-  tools:context=".features.ui.detail.DetailFragment">
+  tools:context=".ui.features.detail.DetailFragment">
 
   <TextView
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:fontFamily="@font/roboto_bold"
-    android:text="Detail Screen"
+    android:text="@{viewModel.name}"
     android:textSize="@dimen/_20ssp"
     app:layout_constraintBottom_toBottomOf="parent"
     app:layout_constraintEnd_toEndOf="parent"

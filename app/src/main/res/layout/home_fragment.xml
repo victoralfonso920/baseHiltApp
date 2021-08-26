@@ -6,20 +6,21 @@
   <data>
     <variable
       name="viewModel"
-      type="com.example.basehiltdi.features.ui.home.HomeViewModel" />
+      type="com.example.basehiltdi.ui.features.home.HomeViewModel" />
+    <variable name="name" type="String"/>
   </data>
 
 <androidx.constraintlayout.widget.ConstraintLayout
   android:layout_width="match_parent"
   android:layout_height="match_parent"
-  tools:context=".features.ui.home.HomeFragment">
+  tools:context=".ui.features.home.HomeFragment">
 
   <com.google.android.material.button.MaterialButton
     android:id="@+id/txtHello"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:gravity="center"
-    android:onClick="@{() -> viewModel.navigateToDetail()}"
+    android:onClick="@{() -> viewModel.navigateToDetail(name)}"
     android:text="Go to Detail screen"
     app:layout_constraintBottom_toBottomOf="parent"
     app:layout_constraintEnd_toEndOf="parent"

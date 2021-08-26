@@ -1,9 +1,8 @@
 package com.example.basehiltdi.domain.repos
 
-import android.widget.Toast
 import com.example.basehiltdi.R
-import com.example.basehiltdi.presentation.base.utils.ResourceManager
-import com.example.basehiltdi.presentation.base.utils.logv
+import com.example.basehiltdi.ui.base.utils.ResourceManager
+import com.example.basehiltdi.ui.base.utils.logv
 import javax.inject.Inject
 
 // Created by Victor Hernandez on 25/8/21.
