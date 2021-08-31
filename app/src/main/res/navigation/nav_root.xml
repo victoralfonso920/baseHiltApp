@@ -24,8 +24,15 @@
     android:name="com.example.basehiltdi.ui.features.detail.DetailFragment"
     android:label="DetailFragment"
     tools:layout="@layout/detail_fragment">
+
+    <deepLink
+      android:id="@+id/deepLink"
+      app:uri="http://basedi/detail/{name}" />
     <argument
-      android:name="name_last_screen"
-      app:argType="string" />
+      android:name="name"
+      app:argType="string"
+      app:nullable="true"
+      android:defaultValue="@null" />
+
   </fragment>
 </navigation>

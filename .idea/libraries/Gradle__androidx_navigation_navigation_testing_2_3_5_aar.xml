@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.navigation:navigation-testing:2.3.5@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/3e6ad2b9c89749ae42eee176dcee8879/transformed/jetified-navigation-testing-2.3.5/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/3e6ad2b9c89749ae42eee176dcee8879/transformed/jetified-navigation-testing-2.3.5/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/3e6ad2b9c89749ae42eee176dcee8879/transformed/jetified-navigation-testing-2.3.5/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/92c91166bd11ecc6282d076c62e17eb2/transformed/jetified-navigation-testing-2.3.5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/92c91166bd11ecc6282d076c62e17eb2/transformed/jetified-navigation-testing-2.3.5/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/92c91166bd11ecc6282d076c62e17eb2/transformed/jetified-navigation-testing-2.3.5/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

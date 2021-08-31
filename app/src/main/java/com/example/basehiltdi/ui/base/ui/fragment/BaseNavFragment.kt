@@ -32,6 +32,10 @@ abstract class BaseNavFragment : Fragment(), ObserverBase {
             findNavController().navigate(direction)
         }
 
+        liveDataObserver(viewModel.getNavigationId()) { model ->
+            findNavController().navigate(model.id,model.data)
+        }
+
         liveDataObserver(viewModel.getPopBackStackWithDirectionLiveData()) { direction ->
             findNavController().popBackStack(direction, true)
         }
