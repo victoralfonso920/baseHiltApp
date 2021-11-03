@@ -10,5 +10,9 @@
 
   <color name="persian_red">#cb3234</color>
   <color name="mountain_meadow">#1CB574</color>
+  <color name="transparent">#00000000</color>
+  <color name="silver">#C1C1C1</color>
+
+  <color name="mobster">#80788C</color>
 
 </resources>

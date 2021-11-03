@@ -20,12 +20,23 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:gravity="center"
-    android:onClick="@{() -> viewModel.navigateToDetail(name)}"
+    android:onClick="@{() -> viewModel.navigateToDetail()}"
     android:text="Go to Detail screen"
     app:layout_constraintBottom_toBottomOf="parent"
     app:layout_constraintEnd_toEndOf="parent"
     app:layout_constraintStart_toStartOf="parent"
     app:layout_constraintTop_toTopOf="parent" />
+
+  <com.google.android.material.button.MaterialButton
+    android:id="@+id/listClick"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:onClick="@{() -> viewModel.navigateToList()}"
+    android:text="Go to List screen"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/txtHello" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

@@ -3,9 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable/shape_divider_flexbox.xml" value="0.5015384615384615" />
         <entry key="app/src/main/res/layout/activity_home_host.xml" value="0.33016304347826086" />
+        <entry key="app/src/main/res/layout/binding_variables.xml" value="0.28802083333333334" />
         <entry key="app/src/main/res/layout/detail_fragment.xml" value="0.28802083333333334" />
+        <entry key="app/src/main/res/layout/fragment_simple_list.xml" value="0.28802083333333334" />
         <entry key="app/src/main/res/layout/home_fragment.xml" value="0.28802083333333334" />
+        <entry key="app/src/main/res/layout/item_loading.xml" value="0.28802083333333334" />
+        <entry key="app/src/main/res/layout/item_title.xml" value="0.28802083333333334" />
+        <entry key="app/src/main/res/layout/shimmer_skeleton.xml" value="0.28802083333333334" />
       </map>
     </option>
   </component>

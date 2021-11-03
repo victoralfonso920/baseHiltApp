@@ -2,7 +2,7 @@ package com.example.basehiltdi.ui.features.detail
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
-import com.example.basehiltdi.ui.base.viewModel.BaseViewModel
+import com.example.basehiltdi.ui.presentation.base.viewModel.BaseViewModel
 import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject
 

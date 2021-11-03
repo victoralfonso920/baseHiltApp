@@ -1,8 +1,8 @@
 package com.example.basehiltdi.domain.repos
 
 import com.example.basehiltdi.R
-import com.example.basehiltdi.ui.base.utils.ResourceManager
-import com.example.basehiltdi.ui.base.utils.logv
+import com.example.basehiltdi.ui.presentation.utils.ResourceManager
+import com.example.basehiltdi.ui.presentation.utils.extensions.logv
 import javax.inject.Inject
 
 // Created by Victor Hernandez on 25/8/21.
